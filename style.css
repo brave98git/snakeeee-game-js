@@ -3,135 +3,134 @@
   src: url("Gilroy-Bold.ttf");
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: gilroy;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: gilroy;
 }
 
-
-
-html,body{
-    height: 100%;
-    width: 100%;    
+html,
+body {
+  height: 100%;
+  width: 100%;
 }
 
-:root{
-    /* background-color */
-    --bg-primary-color: #111;
-    --bg-secondary-color: #fff;
-    --bg-fill-color: rgb(255, 255, 255);
-    --bg-food-color: rgb(255, 0, 0);
+:root {
+  /* background-color */
+  --bg-primary-color: #111;
+  --bg-secondary-color: #fff;
+  --bg-fill-color: rgb(255, 255, 255);
+  --bg-food-color: rgb(255, 0, 0);
 
-    /* text-color */
-    --text-primary-color: #fff;
-    --text-secondary-color: #111;
+  /* text-color */
+  --text-primary-color: #fff;
+  --text-secondary-color: #111;
 
-    /* padding */
-    --space-xs: 4px;
-    --space-sm: 8px;
-    --space-md: 16px;
-    --space-lg: 24px;
-    --space-xl: 32px;
-    --space-2xl: 40px;
-    --space-3xl: 48px;
+  /* padding */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 40px;
+  --space-3xl: 48px;
 
+  /* Border Colors */
+  --border-primary-color: #333333;
 
-    /* Border Colors */
-    --border-primary-color:#333333;
-
-    /* Border-Radius */
-    --border-radius-xs: 4px;
-    --border-radius-sm: 8px;
-    --border-radius-md: 16px;
-    --border-radius-lg: 24px;
-    --border-radius-xl: 32px;
-    --border-radius-2xl: 40px;
-    --border-radius-3xl: 48px;
+  /* Border-Radius */
+  --border-radius-xs: 4px;
+  --border-radius-sm: 8px;
+  --border-radius-md: 16px;
+  --border-radius-lg: 24px;
+  --border-radius-xl: 32px;
+  --border-radius-2xl: 40px;
+  --border-radius-3xl: 48px;
 }
 
-html{
-    background: var(--bg-primary-color);
-    color: var(--text-primary-color);
+html {
+  background: var(--bg-primary-color);
+  color: var(--text-primary-color);
 }
 
-main,section{
-    width: 100%;
-    height: 100%;
+main,
+section {
+  width: 100%;
+  height: 100%;
 }
 
-.btn{
-    padding:var(--space-sm) var(--space-md);
-    border: none;
-    border-radius: var(--space-sm);
-    cursor: pointer;
-    transition: all 0.3s ease;
+.btn {
+  padding: var(--space-sm) var(--space-md);
+  border: none;
+  border-radius: var(--space-sm);
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
-.btn:hover{
-    transform: scale(1.1);
+.btn:hover {
+  transform: scale(1.1);
 }
 
-section{
-    padding:var(--space-2xl);
-    display: flex;
-    flex-direction: column;
-    gap: var(--space-lg);
+section {
+  padding: var(--space-2xl);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
 }
 
-section .infos{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    z-index: 10;
+section .infos {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  z-index: 10;
 }
 
-.info{
-    padding: var(--space-sm) var(--space-md);
-    border:4px solid var(--border-primary-color);
+.info {
+  padding: var(--space-sm) var(--space-md);
+  border: 4px solid var(--border-primary-color);
 }
 
-.board{
-    border: 1px solid var(--border-primary-color);
-    flex-grow: 1;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(80px,1fr));
-    grid-template-rows: repeat(auto-fill, minmax(80px,1fr));
+.board {
+  border: 1px solid var(--border-primary-color);
+  flex-grow: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+  grid-template-rows: repeat(auto-fill, minmax(80px, 1fr));
 }
 
-.block{
-    /* width: 30px;
+.block {
+  /* width: 30px;
     height: 30px; */
-    border: 1px solid var(--border-primary-color);
-    border-radius: 50%;
+  border: 1px solid var(--border-primary-color);
+  border-radius: 50%;
 }
 
-.fill{
-    background-color: var(--bg-fill-color);
+.fill {
+  background: #00ff88;
+  clip-path: polygon(0% 0%, 80% 50%, 0% 100%, 20% 50%);
 }
 
-.food{
-    background-color: var(--bg-food-color);
+.food {
+  background-color: var(--bg-food-color);
 }
 
-.modal{
-    height: 100vh;
-    width: 100vw;
-    position: fixed;
-    top: 0;
-    background-color: #35353587;
-    backdrop-filter: blur(4px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 5;
+.modal {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  background-color: #35353587;
+  backdrop-filter: blur(4px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
 }
 
-.modal .start-game{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: var(--space-lg);
+.modal .start-game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-lg);
 }
-

@@ -107,9 +107,15 @@ function render() {
   snake.pop();
 
   snake.forEach((segment) => {
-    let snakeeee = blocks[`${segment.x}-${segment.y}`];
+    const snakeeee = blocks[`${segment.x}-${segment.y}`];
     snakeeee.classList.add("fill");
+    if (segment === head) {
+      rotateHead(snakeeee);
+    }
+    
   });
+
+  
 }
 
 function restart() {
@@ -176,3 +182,11 @@ addEventListener("keydown", (e) => {
     direction = "left";
   }
 });
+
+
+function rotateHead(cell) {
+  if (direction === "up") cell.style.transform = "rotate(-90deg)";
+  else if (direction === "down") cell.style.transform = "rotate(90deg)";
+  else if (direction === "left") cell.style.transform = "rotate(180deg)";
+  else if (direction === "right") cell.style.transform = "rotate(0deg)";
+}
