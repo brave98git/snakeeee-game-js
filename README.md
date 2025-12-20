@@ -11,11 +11,12 @@
 
 ---
 
+
 ## 🎥 Gameplay Demo
 
-https://github.com/<your-username>/<repo-name>/assets/snake-demo.mp4
+![snake-demo](https://github.com/user-attachments/assets/ec091ff8-0fcf-4041-8010-9a0133b8d63c)
 
-> ⬆️ GitHub will auto-play this video directly inside the README
+
 
 ---
 
