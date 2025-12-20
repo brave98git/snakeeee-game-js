@@ -1,51 +1,49 @@
 <h1 align="center">🐍 Snakeeee Game</h1>
 
 <p align="center">
-  <b>An interactive Snake Game built with pure JavaScript</b><br/>
-  Smooth movement • Keyboard controls • Clean UI
+  <b>Classic Snake Game built with Vanilla JavaScript</b><br/>
+  Smooth movement • Keyboard controls • Clean logic
 </p>
 
 <p align="center">
-  ## 🎥 Snakeeee Game Demo
-https://github.com/<your-username>/<repo-name>/assets/snake-game-demo.mp4
-
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00FF88&center=true&vCenter=true&width=600&lines=Snakeeee.js;Eat+Grow+Survive;Pure+JavaScript+Game" />
 </p>
 
 ---
 
-## 🐍 Live Snake Demo
-<p align="center">
-  [<img src="https://svg-banners.vercel.app/api?type=snake&text1=Snakeeee.js&width=800&height=200" />](https://github.com/<your-username>/<repo-name>/assets/snake-demo.mp4)
-</p>
+## 🎥 Gameplay Demo
+
+https://github.com/<your-username>/<repo-name>/assets/snake-demo.mp4
+
+> ⬆️ GitHub will auto-play this video directly inside the README
 
 ---
 
 ## 🎮 About the Project
 
-**Snakeeee** is a modern take on the classic Snake game, built completely using **Vanilla JavaScript**, HTML, and CSS.
+**Snakeeee** is a browser-based version of the classic Snake game.  
+The entire game logic is implemented in:
 
-The game logic is handled inside  
-📁 **`snakeeee.js`**
+📄 **`snakeeee.js`**
 
-No frameworks. No libraries. Just clean logic and smooth gameplay.
+No frameworks. No libraries. Just clean JavaScript and game logic.
 
 ---
 
 ## ✨ Features
 
-✅ Keyboard-controlled snake movement  
-✅ Real-time grid-based rendering  
-✅ Dynamic snake growth  
-✅ Collision detection  
-✅ Minimal & clean UI  
-✅ Beginner-friendly code structure  
+- 🐍 Smooth snake movement  
+- ⌨️ Arrow-key controls  
+- 🍎 Food eating & snake growth  
+- 💥 Wall & self collision detection  
+- ⚡ Optimized render loop  
 
 ---
 
 ## 🕹️ Controls
 
 | Key | Action |
-|----|-------|
+|-----|-------|
 | ⬆️ Arrow Up | Move Up |
 | ⬇️ Arrow Down | Move Down |
 | ⬅️ Arrow Left | Move Left |
@@ -58,6 +56,8 @@ No frameworks. No libraries. Just clean logic and smooth gameplay.
 ```bash
 Snakeeee/
 │
+├── assets/
+│   └── snake-demo.mp4
 ├── index.html
 ├── style.css
 ├── snakeeee.js
