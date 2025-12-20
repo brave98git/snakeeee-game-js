@@ -11,9 +11,9 @@
 
 ---
 
-## 🐍 Live Snake Animation
+## 🐍 Live Snake Demo
 <p align="center">
-  <img src="https://svg-banners.vercel.app/api?type=snake&text1=Snakeeee.js&width=800&height=200" />
+  [<img src="https://svg-banners.vercel.app/api?type=snake&text1=Snakeeee.js&width=800&height=200" />](https://github.com/<your-username>/<repo-name>/assets/snake-demo.mp4)
 </p>
 
 ---
