@@ -15,10 +15,9 @@
 ## 🎥 Gameplay Demo
 
 
-<p align="center">
-  <video src="https://github.com/user-attachments/assets/3f6d6e62-e16f-451d-a0e7-ef8bed90bbe5" width="100%" autoplay muted loop>
-  </video>
-</p>
+https://github.com/user-attachments/assets/e7d4f14d-dac5-4422-909e-0c0b794cd49c
+
+
 
 ---
 
@@ -27,7 +26,7 @@
 **Snakeeee** is a browser-based version of the classic Snake game.  
 The entire game logic is implemented in:
 
-📄 **`index.js`**
+📄 **`script.js`**
 
 No frameworks. No libraries. Just clean JavaScript and game logic.
 
