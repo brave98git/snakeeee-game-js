@@ -14,9 +14,11 @@
 
 ## 🎥 Gameplay Demo
 
-![snake-demo](https://github.com/user-attachments/assets/ec091ff8-0fcf-4041-8010-9a0133b8d63c)
 
-
+<p align="center">
+  <video src="https://github.com/user-attachments/assets/3f6d6e62-e16f-451d-a0e7-ef8bed90bbe5" width="100%" autoplay muted loop>
+  </video>
+</p>
 
 ---
 
