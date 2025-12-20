@@ -27,7 +27,7 @@
 **Snakeeee** is a browser-based version of the classic Snake game.  
 The entire game logic is implemented in:
 
-📄 **`snakeeee.js`**
+📄 **`index.js`**
 
 No frameworks. No libraries. Just clean JavaScript and game logic.
 
