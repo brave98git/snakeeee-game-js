@@ -6,7 +6,9 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00FF88&center=true&vCenter=true&width=550&lines=Eat+Grow+Survive;Classic+Snake+Reimagined;Built+with+snakeeee.js" />
+  ## 🎥 Snakeeee Game Demo
+https://github.com/<your-username>/<repo-name>/assets/snake-game-demo.mp4
+
 </p>
 
 ---
